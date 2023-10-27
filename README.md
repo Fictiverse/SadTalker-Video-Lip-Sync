@@ -1,8 +1,10 @@
 # SadTalker-Video-Lip-Sync
 
 
-Ce projet s'appuie sur SadTalker pour implémenter Wav2lip pour la synthèse vidéo labiale. À l'aide de fichiers vidéo pour générer des formes de lèvres à commande vocale et en définissant un procédé d'amélioration personnalisé sur la région du visage, une amélioration d'image est effectuée sur la région de forme de lèvres synthétique (visage) pour améliorer la clarté des formes de lèvres générées. Utilisez l'algorithme d'interpolation d'images DL de DAIN pour ajouter des images à la vidéo générée et compléter l'action de transition des formes de lèvres synthétiques entre les images, rendant les formes de lèvres synthétiques plus lisses, plus réalistes et naturelles.   
-De plus, XTTS a été implémenté sur le notebook Colab, il s'agit donc en fait pour le moment d'un analogue open source de HeyGen. À l'avenir, je mettrai en œuvre un magnifique site Web Gradio.
+This project relies on SadTalker to implement Wav2lip for lip video synthesis. Using video files to generate voice-controlled lip shapes and setting a custom enhancement method on the facial region, image enhancement is performed on the synthetic lip shape region (face) to improve the clarity of the generated lip shapes.   
+Use DAIN's DL frame interpolation algorithm to add frames to the generated video and complete the transition action of synthetic lip shapes between frames, making the synthetic lip shapes smoother, more realistic and natural.   
+
+In addition, XTTS was implemented on the Colab notebook, so in fact at the moment it is an open source analogue of HeyGen. In the future I will implement a beautiful Gradio website.
 
 ## 1.Environmental preparation (Environment)
 
