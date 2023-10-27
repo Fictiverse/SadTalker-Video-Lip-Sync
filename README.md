@@ -1,7 +1,8 @@
 # SadTalker-Video-Lip-Sync
 
 
-本项目基于SadTalkers实现视频唇形合成的Wav2lip。通过以视频文件方式进行语音驱动生成唇形，设置面部区域可配置的增强方式进行合成唇形（人脸）区域画面增强，提高生成唇形的清晰度。使用DAIN 插帧的DL算法对生成视频进行补帧，补充帧间合成唇形的动作过渡，使合成的唇形更为流畅、真实以及自然。
+Ce projet s'appuie sur SadTalker pour implémenter Wav2lip pour la synthèse vidéo labiale. À l'aide de fichiers vidéo pour générer des formes de lèvres à commande vocale et en définissant un procédé d'amélioration personnalisé sur la région du visage, une amélioration d'image est effectuée sur la région de forme de lèvres synthétique (visage) pour améliorer la clarté des formes de lèvres générées. Utilisez l'algorithme d'interpolation d'images DL de DAIN pour ajouter des images à la vidéo générée et compléter l'action de transition des formes de lèvres synthétiques entre les images, rendant les formes de lèvres synthétiques plus lisses, plus réalistes et naturelles.   
+De plus, XTTS a été implémenté sur le notebook Colab, il s'agit donc en fait pour le moment d'un analogue open source de HeyGen. À l'avenir, je mettrai en œuvre un magnifique site Web Gradio.
 
 ## 1.环境准备(Environment)
 
